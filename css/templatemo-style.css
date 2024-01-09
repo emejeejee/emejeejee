@@ -346,3 +346,90 @@ p {
     padding: 25px;
   }
 }
+/* ... (previous styles) ... */
+
+/*
+  Portfolio section
+*/
+
+#tmPortfolio {
+  padding-top: 80px;
+}
+
+.tm-portfolio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.tm-portfolio-name {
+  width: 330px;
+  height: 220px;
+  font-size: 2rem;
+  padding: 70px 95px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tm-portfolio-description {
+  width: calc(100% - 330px);
+  padding: 20px 45px;
+}
+
+.tm-portfolio-description h3 {
+  margin-bottom: 20px;
+}
+
+.tm-portfolio-description p {
+  line-height: 1.8;
+}
+
+.tm-portfolio-item .card {
+  border: none;
+}
+
+.tm-portfolio-item .card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.tm-portfolio-item .card-body {
+  padding: 20px;
+}
+
+.tm-portfolio-item .card-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/*
+  Contact section
+*/
+
+#tmContact {
+  padding-top: 95px;
+}
+
+.tm-contact-item {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  background-color: #f39bd8;
+  padding: 54px 34px 44px;
+}
+
+.tm-contact-item-icon {
+  margin-bottom: 15px;
+}
+
+.tm-contact-items-container {
+  flex-direction: column;
+}
+
+.tm-contact-item:last-child {
+  margin-bottom: 0;
+}
+
+/* ... (remaining styles) ... */
