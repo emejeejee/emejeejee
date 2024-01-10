@@ -433,3 +433,11 @@ p {
 }
 
 /* ... (remaining styles) ... */
+/* Additional CSS for centering content in Contact Me section */
+#tmContactMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh; /* Adjust the height as needed */
+}
+
